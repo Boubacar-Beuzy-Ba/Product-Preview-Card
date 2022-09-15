@@ -33,4 +33,7 @@
 .btn {
   background-color: hsl(158, 36%, 37%);
 }
+:active.btn {
+  background-color: hsl(158, 62%, 17%);
+}
 </style>
