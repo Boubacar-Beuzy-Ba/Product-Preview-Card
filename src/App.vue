@@ -1,13 +1,11 @@
 <script setup>
-  const imageDesktop = '../src/assets/image-product-desktop.jpg'
-  const imageMobile = '../src/assets/image-product-mobile.jpg'
 </script>
 
 <template>
   <main>
   <div class="max-w-sm w-full lg:max-w-3xl sm:flex bg-white rounded-3xl overflow-hidden shadow-lg">
-      <img :src="imageDesktop" alt="Product" class="invisible md:visible sm:invisible hidden md:block sm:hidden rounded-t md:rounded-l-3xl w-full md:w-1/2">
-      <img :src="imageMobile" alt="Product" class="visible md:invisible sm:visible block md:hidden sm:block rounded-t md:rounded-l-3xl w-full md:w-1/2">
+      <img src="../src/assets/image-product-desktop.jpg" alt="Product" class="invisible md:visible sm:invisible hidden md:block sm:hidden rounded-t md:rounded-l-3xl w-full md:w-1/2">
+      <img src="../src/assets/image-product-mobile.jpg" alt="Product" class="visible md:invisible sm:visible block md:hidden sm:block rounded-t md:rounded-l-3xl w-full md:w-1/2">
     <div class="mx-3 p-4">
       <h3 class="text-xl text-gray-500 uppercase tracking-widest">perfume</h3>
       <h1 class="text-3xl text-black my-9 capitalize">Gabrielle Essence Eau De Parfum</h1>
